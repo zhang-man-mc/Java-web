@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 字符为UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- 设置浏览器兼容性 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文学</title>
+    <style>
+        h1 {
+            color: blueviolet;
+        }
+        .time{
+            color: red;
+        }
+        #id{
+            color: green;
+        }
+    </style> 
+    <!-- <link rel="stylesheet" href="./css/new.css"> -->
+</head>
+
+
+<!-- 绝对网络路径：https://p8.itc.cn/q_70/images03/20230325/65aacb3f61bf402c82d66f545eb3cadc.jpeg -->
+<!-- style="color: red;" -->
+<body>
+    <img src="D:\ico\f2.ico" >
+    <h1 > 文学少女 </h1>
+    <hr>
+       <span class="time" >原来这样</span> <span id="id">6666</span> 
+    <hr>
+</body>
+
+</html>
