@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="qq"  src="D:\ico\f8.ico" >  图片
+    
+    <div class="one">今天天气晴朗 </div>  <br> 
+    <div id="two"> 风和日丽 </div> <br>
+
+    <input type="checkbox" name="borry">超市
+    <input type="checkbox" name="borry">商城
+    <input type="checkbox" name="borry">便利店
+     
+</body>
+    <script> 
+        var im=document.getElementById("qq");
+        alert(im)
+        im.src="./f17.ico"
+        //im.src="D:\ico\f9.ico";
+        //im.src="D:\ico\f11.ico";
+
+        var wenzi=document.getElementById("two")
+        wenzi.innerHTML+="<font color=red>  very good </font>";
+        
+        var wenzi1=document.getElementsByClassName("one");
+        wenzi1[0].innerHTML+="<font color=red>  very good </font>";
+
+
+        var ins=document.getElementsByName('borry');
+         for (let i = 0; i <ins.length; i++) {
+            const el = ins[i];
+            el.checked=true;
+            
+        } 
+       
+    </script>
+
+</html>
